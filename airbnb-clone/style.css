@@ -43,3 +43,69 @@ section {
   line-height: 110%;
   width: 35ch;
 }
+
+.card {
+  width: 176px;
+}
+
+.card--img {
+  position: relative;
+}
+
+.card--img__photo {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card--img__flag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: 5;
+  text-transform: uppercase;
+  padding: 6px 5px;
+  background: #fff;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.card > * {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card--rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card--rating__star {
+  width: 14px;
+}
+
+.card--rating__reviews,
+.card--rating__bullet,
+.card--rating__ctry {
+  color: #918e9b;
+}
+
+.card--content,
+.card--price {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card--price__bold {
+  font-weight: 600;
+}
