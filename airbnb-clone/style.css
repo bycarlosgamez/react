@@ -7,6 +7,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+section {
+  padding: 22px 30px;
+}
+
 .nav {
   height: 70px;
   display: flex;
@@ -18,10 +22,6 @@ body {
   max-width: 100px;
 }
 
-.hero {
-  padding: 22px 30px;
-}
-
 .hero--img__container {
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .hero--img__photo {
-  width: 396px;
+  max-width: 396px;
 }
 
 .hero--title {
