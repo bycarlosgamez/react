@@ -1,13 +1,69 @@
-import React from "react"
+* {
+  box-sizing: border-box;
+}
 
-export default function Navbar() {
-    return (
-        <nav className="nav">
-            <div className="nav--logo">
-                <img src="../images/react-icon-small.png" className="nav--logo_icon" />
-                <h3 className="nav--logo_text">ReactFacts</h3>
-            </div>
-            <h4 className="nav--title">React Course - Project 1</h4>
-        </nav>
-    )
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #282d35;
+}
+
+.nav {
+  display: flex;
+  background: #21222a;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--logo_icon {
+  width: 30px;
+}
+
+.nav--logo_text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.05em;
+  color: #61dafb;
+  margin-left: 7px;
+}
+
+.nav--title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  color: #deebf8;
+}
+
+.main {
+  padding: 57px 27px;
+  color: #fff;
+}
+
+.main--title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 36px;
+}
+
+.main--facts > li {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 40ch;
+  padding-block: 10px;
 }
