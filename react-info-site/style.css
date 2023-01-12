@@ -67,3 +67,8 @@ body {
   max-width: 40ch;
   padding-block: 10px;
 }
+
+.main--facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
